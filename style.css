@@ -1,0 +1,167 @@
+*{ 
+  margin: 0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  overflow: hidden;
+  background-color: #FFC017;
+  padding: 20px 10px;
+  border-bottom:1px solid black;
+}
+.header a {
+  padding: 12px;
+  text-decoration:none;
+  color:black;
+}
+.header-right {
+  float: right;
+  margin-right:10px;
+}
+.logo{
+	width:200px;
+	margin-left:30px;
+	}
+@media screen and (max-width: 710px) {
+  .header a {
+    display: block;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+button{
+	background-color:black;
+	color:white;
+	border-radius:20px;
+	padding:10px;
+}
+.below_heading{
+	width:100%;
+	overflow: hidden;
+  background-color: #FFC017;
+  padding: 50px 10px;
+  border-bottom:1px solid black;
+  display:flex;
+  
+}
+.text{
+	display:flex;
+	flex-direction:column;
+	align-self:center;
+	position:relative;
+	margin-left:40px;
+	width:40%;
+}
+.first_text{
+	font-size:70px;
+}
+.second_text{
+	font-size:35px;
+}
+.second_button{
+background-color:black;
+	color:white;
+	border-radius:20px;
+width:200px;	
+}
+.first_pic{
+	width:50%;
+	height:400px;
+	float:right;
+}
+@media screen and (max-width: 720px) {
+  .first_pic {
+    width:0;
+	height:0;
+  }
+  .text{
+	  width:90%;
+  }
+}
+.people-summary{
+	position:relative;
+	min-height:60vh;
+	border-bottom:1px grey solid;
+	weight:100%;
+}
+.trending_heading{
+	margin-top:50px;
+	margin-left:50px;
+	display:flex;
+	align-items:center;
+	position:relative;
+}
+.trending_box{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	margin-left:50px;
+	margin-right:50px;
+	min-height:300px;
+}
+.biggest{
+	display:flex;
+}
+.number-style{
+	font-size:50px;
+	color:grey;
+}
+@media screen and (max-width: 1030px) {
+  .trending_box {
+    grid-template-columns:1fr 1fr;
+  }
+}
+@media screen and (max-width: 700px) {
+  .trending_box {
+    grid-template-columns:1fr;
+	gap:10px;
+  }
+}
+.bigger{
+	position:relative;
+	display:flex;
+	margin-left:90px;
+}
+.ag{
+	width:30px;
+	height:30px;
+}
+.names{
+	position:relative;
+	margin-top:5px;
+	margin-left:5px;
+}
+.comment{
+	position:relative;
+	margin-left:150px;
+}
+.main{
+	margin-top:100px;
+	display:grid;
+	grid-template-columns:1fr 0.6fr;
+}
+aside{
+	display:flex;
+	flex-direction:column;
+}
+.sidebar-buttons>button{
+	background-color:lightgray;
+	color:black;
+	border:0;
+	margin:10px;
+}
+.main-content{
+height:300vh;
+border:solid black 1px;	
+}
+.last-section{
+	display:flex;
+	position:relative;
+	flex-direction:row;
+	margin-left:150px;
+}
+aside>div{
+	position:sticky;
+	top:200px;
+}
